@@ -352,4 +352,17 @@ public class StudentController {
 
 	}
 	
+	@GetMapping("/test2")
+	public String testServer2() {
+		try {
+			
+			return "working";
+
+		} catch (Exception e) {
+			return e.toString();
+
+		}
+	}
+	
+	
 }
