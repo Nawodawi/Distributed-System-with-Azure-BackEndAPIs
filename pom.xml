@@ -13,7 +13,7 @@
 	<name>moodle</name>
 	<description>moodle project for Spring Boot</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
